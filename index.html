@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="icon" type="image/png" href="image/logoNavegador.png" sizes="32x32">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!--Menu Styles-->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    
+    <section id="headerNav">
+        <a href="#">
+            <h1 class="logo">E-commerce</h1>
+        </a>
+        <a class="btn-menu"><i class="fa fa-bars"></i></a>
+        <nav class="menu">
+            <a class="btn-close"><i class="fa fa-close"></i></a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">About</a></li>
+                <li><a href="#portfolio">Services</a></li>
+                <li><a href="#servicos">Products catalogue</a></li>
+                <li><a href="#" id="contatoMenu" data-toggle="modal" data-target="#exampleModal">Help us make this site better</a></li>
+            </ul>
+        </nav>
+
+        <img src="image/button.png" alt="Contact" id="buttonContato" data-toggle="modal"
+            data-target="#exampleModal" />
+    </section>
+
+    <!--Header-->
+    <header id="home">
+        <section>
+            <article>
+                <h4>Welcome to my <br>online platform</h4>
+                <h1>
+                    Everything at ,<br />
+                    one destination!
+                </h1>
+                <h1>We sell
+                <p>
+                    <span class="txt-rotate"'
+                    class="text-rotate"
+                    data-period=""
+                    
+                    data-rotate='["Groceries!.","Apparels!.","Kitchenware!.","Mobile phones!.","and much more!."]'>
+                </span>
+                </h1>
+                    
+                    <!-- 
+                        <h1>This pen is
+                            <span
+                               class="txt-rotate"
+                               data-period="2000"
+                               data-rotate='[ "nerdy.", "simple.", "pure JS.", "pretty.", "fun!" ]'></span>
+                          </h1> -->
+                        </span>
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <img src="image/ilustracaoUm.png" alt="" />
+        </section>
+    </header>
+
+    <main>
+        <!--Modal-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                            
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form method="POST" name="f1" action="">
+                            <p>Name:</p>
+                            <input type="name" name="nome" placeholder="Enter your name" required />
+                            <p>Email:</p>
+                            <input type="email" name="email" onblur="" placeholder="Enter your email" required />
+                            <div id="msgemail"></div>
+
+                            <textarea name="messages" cols="30" rows="5"
+                                placeholder="Enter your message here " required></textarea>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                            Date
+                        </button>
+                        <button type="submit" value="Enviar" class="btn btn-cor">
+                            Send
+                        </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--scroll top-->
+        <div id="stop" class="scrollTop">
+            <span><a href=""><i class="fa fa-arrow-up"></i></a></span>
+        </div>
+        <hr>
+        <!--first section-->
+        <section id="cards">
+        <div>
+            <h2 class="couch">Couch section</h2>
+            <div>
+                <!-- COUCH SECTION -->
+                <article>
+                    <img src="image/Sofasticated.png" alt="ícone do card" />
+                    <h1>Sofasticated premium sofa</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+                        explicabo quas eveniet.
+                    </p>
+                </article>
+
+                <article>
+                    <img src="image/Sofasticated2.jpeg" alt="Image not available" />
+                    <h1>Furnicom couch</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+                        explicabo quas eveniet.
+                    </p>
+                </article>
+
+                <article>
+                    <img src="image/sofasticated3.png" alt="Image not available" />
+                    <h1>Greenchairs office chairs</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+                        explicabo quas eveniet.
+                    </p>
+                </article>
+
+                <article>
+                    <img src="image/sofasticated4.jpeg" alt="Image not available" />
+                    <h1>Office chairs</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+                        explicabo quas eveniet.
+                    </p>
+                </article>
+                <!-- from here -->
+            </div>
+            <h2 class="couch">Apparels and Footwear section</h2>
+            <div>
+              <!-- APPARELS SECTION -->
+                <article>
+                    <img src="image/foowear2.jpeg" alt="Image not available" />
+                    <h1>Shirts</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+                        explicabo quas eveniet.
+                    </p>
+                </article>
+                <article>
+                    <img src="image/foowear4.jpeg" alt="Image not available" />
+                    <h1>gringer shoes</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+                        explicabo quas eveniet.
+                    </p>
+                </article>
+                <article>
+                    <img src="image/foowear3.jpeg" alt="Image not available" />
+                    <h1>Shirts</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+                        explicabo quas eveniet.
+                    </p>
+                </article>
+                <article>
+                    <img src="image/foowear5.jpeg" alt="Image not available" />
+                    <h1>walkers</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+                        explicabo quas eveniet.
+                    </p>
+                </article>
+                
+                <!-- to here unedited -->
+            </div>
+            <h2 class="couch">Groceries section</h2>
+            <div>
+              <!-- GROCERIES SECTION -->
+                <article>
+                    <img src="image/groceries1.jpg" alt="Image not available" />
+                    <h1>Vegetables</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+                        explicabo quas eveniet.
+                    </p>
+                </article>
+                <article>
+                    <img src="image/groceries2.jpeg" alt="Image not available" />
+                    <h1>Grains</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+                        explicabo quas eveniet.
+                    </p>
+                </article>
+                <article>
+                    <img src="image/groceries3.webp" alt="Image not available" />
+                    <h1>Dairy products</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+                        explicabo quas eveniet.
+                    </p>
+                </article>
+                <article>
+                    <img src="image/groceries4.webp" alt="Image not available" />
+                    <h1>Supplements</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+                        explicabo quas eveniet.
+                    </p>
+                </article>
+                
+              <!-- Books section -->
+            </div>
+            <h2>Books section</h2>
+            <div>
+            <article>
+                <img src="image/bookimage1.jpeg" alt="Image not available" />
+                <h1>The great gatsby</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+                    explicabo quas eveniet.
+                </p>
+            </article>
+            <article>
+                <img src="image/bookimage2.jpeg" alt="Image not available" />
+                <h1>A Passage to India</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+                    explicabo quas eveniet.
+                </p>
+            </article>
+            <article>
+                <img src="image/bookimage3.jpeg" alt="Image not available" />
+                <h1>The History Of Tom Jones </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+                    explicabo quas eveniet.
+                </p>
+            </article>
+            <article>
+                <img src="image/bookimage4.jpeg" alt="Image not available" />
+                <h1>The big sleep</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+                    explicabo quas eveniet.
+                </p>
+            </article>
+        </div>
+            
+            <!-- to here unedited -->
+        </div>
+        </div>
+        </section>
+
+        <!--second section-->
+        <section id="sobre">
+            <article id="imgSobre">
+                <img src="image/ilustracaoDois.png" alt="" />
+            </article>
+
+            <article id="sobreNos">
+                <article id="headSobre">
+                    <h2>Why go outside for shopping when everything can come to you.</h2>
+                    <p>
+                        In today's time no one wants to spend hours roaming here and there for your favourite shirt that you liked of your friend.You can browse tons of products and select the best one.Now, you will never spend savable minutes in that billing queue of that local shop.Yes you can view all the available products just sitting on your couch,or when you're having lunch.With our web platform you view and purchase anything and everything.
+                    </p>
+                    <h3>Advantages of online shopping</h3>
+                </article>
+                <section id="infoSobre">
+                    <article>
+                        <div>
+                            <img src="image/setaBottom.png" alt="" />
+                        </div>
+                        <h4>No waiting in long lines to check out
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                            viverra sagittis enim proin mauris
+                        </p>
+                    </article>
+                    <article>
+                        <div>
+                            <img src="image/setaBottom.png" alt="" />
+                        </div>
+                        <h4>More choices for buying refurbished products</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                            viverra sagittis enim 
+                        </p>
+                    </article>
+                    <article>
+                        <div>
+                            <img src="image/setaBottom.png" alt="" />
+                        </div>
+                        <h4>Saving on gas</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                            viverra sagittis enim 
+                        </p>
+                    </article>
+                    <article>
+                        <div>
+                            <img src="image/setaBottom.png" alt="" />
+                        </div>
+                        <h4>No aggressive salespeople or annoying crowds</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                            viverra sagittis enim proin mauris
+                        </p>
+                    </article>
+                </section>
+            </article>
+        </section>
+
+        <!-- Third-->
+        <section id="portfolio">
+            <h2>Some of our products categories.</h2>
+            <p>
+                We sell groceries,furniture,footwear,apparels,watches,sports items,sun-glasses/glasses and uncountable items that you need.
+            </p>
+
+            <div>
+                <article>
+                    <img src="image/gogglesimage1.jpeg" alt="image not available" />
+                </article>
+
+                <article>
+                    <img src="image/watchimage1.jpeg" alt="image not available" />
+                </article>
+
+                <article>
+                    <img src="image/apparels logo.webp" alt="image not available" />
+                </article>
+
+                <article>
+                    <img src="image/apparels logo.webp" alt="image not available" />
+                </article>
+
+                <article>
+                    <img src="image/apparels logo.webp" alt="image not available" />
+                </article>
+
+                <article>
+                    <img src="image/apparels logo.webp" alt="image not available" />
+                </article>
+
+               
+            </div>
+        </section>
+
+        <!-- Fourth section-->
+        <section id="servicos">
+            <h2>What do we sell??We sell anything and everything...</h2>
+            <img src="image/ilustracaoTres.png" alt="" class="teste" />
+
+            <section>
+                <article class="separarBoxs boxsFrente">
+                    <article class="flexBoxs">
+                        <img src="image/info.png" alt="" />
+                        <div>
+                            <h3>Technology</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </article>
+
+                    <article class="flexBoxs">
+                        <img src="image/info.png" alt="" />
+                        <div>
+                            <h3>Furniture</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </article>
+                </article>
+
+                <article class="separarBoxs">
+                    <article class="flexBoxs">
+                        <img src="image/info.png" alt="" />
+                        <div>
+                            <h3>Books</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </article>
+
+                    <article class="flexBoxs">
+                        <img src="image/info.png" alt="" />
+                        <div>
+                            <h3>Groceries</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </article>
+                </article>
+
+                <article class="separarBoxs boxsFrente">
+                    <article class="flexBoxs">
+                        <img src="image/info.png" alt="" />
+                        <div>
+                            <h3>Cosmetics</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </article>
+
+                    <article class="flexBoxs">
+                        <img src="image/info.png" alt="" />
+                        <div>
+                            <h3>Apparels for men and women</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </article>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>Location</h6>
+                    Mumbai: Lorem Ipsum <br>
+                    Delhi: Lorem Ipsum<br>
+                    Chennai: Lorem Ipsum<br>
+
+                    <br>
+                    xyz@gmail.com<br>
+                   
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Franchise</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Menu</h6>
+                    <ul class="footer-links">
+                        <li><a href="#home">Jump to top</a></li>
+                        <li><a href="#sobre">For sellers</a></li>
+                        <li><a href="#portfolio">Guide</a></li>
+                        <li><a href="#servicos">Returns</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#exampleModal">Download</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright 2020 by <strong>vatsal</strong>. Rights reserved.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--Meus Scripts-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
